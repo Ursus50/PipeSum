@@ -2,6 +2,7 @@
 
 System operacynjy: Linux 
 
+Program składający się z trzech procesów typu producent-konsument wykorzystujących mechanizm łączy komunikacyjnych (pipes).
 Program umożliwia przetwarzanie danych liczbowych, które są przekazywane między procesami w formie tekstowej. Proces 1 odczytuje wiersze składające się z liczb oddzielonych znakiem "+" i przekazuje do procesu 2. Proces 2 weryfikuje, czy każde wyrażenie składa się z liczb oraz znaków "+", a następnie przekazuje poprawne dane do procesu 3. Proces 3 otrzymuje dane, wylicza sumę i wyprowadza wynik w osobnych wierszach.
 
 Przykład poprwanych danych wejściowych:
