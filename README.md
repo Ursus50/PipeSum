@@ -8,7 +8,7 @@ Przykład poprwanych danych wejściowych:
 * 3+5
 * 23+9
 
-Aby wysłać zatrzymać/wznowić/zakończyć działanie programu należy wysłać z osobnego terminala odpowiednio sygnały do dowolnego procesu:
+Aby zatrzymać/wznowić/zakończyć działanie programu należy wysłać z osobnego terminala odpowiednio sygnały do dowolnego procesu:
 * SIGUSR1
 * SIGUSR2
 * SIGINT
