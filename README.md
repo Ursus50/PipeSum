@@ -10,6 +10,6 @@ Przykład poprwanych danych wejściowych:
 * 23+9
 
 Aby wysłać zatrzymać/wznowić/zakończyć działanie programu należy wysłać z osobnego terminala odpowiednio sygnały do dowolnego procesu:
-*SIGUSR1
-*SIGUSR2
-*SIGINT
+* SIGUSR1
+* SIGUSR2
+* SIGINT
