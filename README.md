@@ -1,5 +1,23 @@
 # PipeSum
 
+(ENG)
+
+Operating system: Linux
+
+The program consists of three producer-consumer processes that use the mechanism of communication links (pipes). The program allows for processing numerical data, which is transmitted between processes in text form. Process 1 reads lines consisting of numbers separated by "+" and passes them to process 2. Process 2 verifies whether each expression consists of numbers and "+", and then passes correct data to process 3. Process 3 receives the data, calculates the sum, and outputs the result in separate lines.
+
+Example of valid input data:
+* 3+5
+* 23+9
+
+To stop/resume/terminate the program, send the appropriate signals to any process from a separate terminal:
+* SIGUSR1
+* SIGUSR2
+* SIGINT
+
+<br><br>
+(PL)
+
 System operacynjy: Linux 
 
 Program składający się z trzech procesów typu producent-konsument wykorzystujących mechanizm łączy komunikacyjnych (pipes).
